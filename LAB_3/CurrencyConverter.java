@@ -21,21 +21,21 @@ public class CurrencyConverter {
         panelUp.add(txtE);
 
         txtD.addKeyListener(new KeyAdapter() {
-            public void keyReleased(KeyEvent e) {
+            public void keyReleased(KeyEventDemo e) {
                 Float dlr = Float.parseFloat(txtD.getText());
                 txtN.setText("" + dlr * 129.57);
                 txtE.setText("" + dlr * 0.97);
             }
         });
         txtN.addKeyListener(new KeyAdapter() {
-            public void keyReleased(KeyEvent e) {
+            public void keyReleased(KeyEventDemo e) {
                 Float npr = Float.parseFloat(txtN.getText());
                 txtD.setText("" + npr / 129.57);
                 txtE.setText("" + npr / 133.73);
             }
         });
         txtE.addKeyListener(new KeyAdapter() {
-            public void keyReleased(KeyEvent e) {
+            public void keyReleased(KeyEventDemo e) {
                 Float euro = Float.parseFloat(txtE.getText());
                 txtD.setText("" + euro * 1.03);
                 txtN.setText("" + euro * 133.73);
