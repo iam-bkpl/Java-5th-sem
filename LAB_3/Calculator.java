@@ -48,28 +48,16 @@ public class Calculator {
         });
         btnSub.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // int num1 = Integer.parseInt(t1.getText());
-                // int num2 = Integer.parseInt(t2.getText());
-                // int result = num1 - num2;
-                // t3.setText("" + result);
                 t3.setText("" + (Integer.parseInt(t1.getText()) - Integer.parseInt(t2.getText())));
             }
         });
         btnProduct.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // int num1 = Integer.parseInt(t1.getText());
-                // int num2 = Integer.parseInt(t2.getText());
-                // int result = num1 * num2;
-                // t3.setText("" + result);
                 t3.setText("" + (Integer.parseInt(t1.getText()) * Integer.parseInt(t2.getText())));
             }
         });
         btnDiv.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // int num1 = Integer.parseInt(t1.getText());
-                // int num2 = Integer.parseInt(t2.getText());
-                // int result = num1 / num2;
-                // t3.setText("" + result);
                 t3.setText("" + (Integer.parseInt(t1.getText()) / Integer.parseInt(t2.getText())));
             }
         });
