@@ -7,11 +7,9 @@ class AWTCounter {
         Label lbl = new Label("Enter an integer");
         TextField txtCount = new TextField(10);
         Button btnCount = new Button("Count Down");
-
         frame.add(lbl);
         frame.add(txtCount);
         frame.add(btnCount);
-
         frame.setSize(400, 100);
         frame.setLayout(new FlowLayout());
         frame.setVisible(true);
