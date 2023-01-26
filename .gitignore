@@ -22,3 +22,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /java-DB/target/
+/Servlet/target/
+/Servlet_java/target/
+/Servlet12/target/
+/servlet12/target/
+/servlet/target/
+/jdbcNB/target/
