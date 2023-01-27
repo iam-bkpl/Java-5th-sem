@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Customer Data</h1>
+        <!--<h1>Customer Data</h1>-->
         <jsp:useBean id="customer" class="Bean.Customer" scope="session" />
      
         
@@ -23,6 +23,6 @@
         
         
         <h1>Collected data</h1>
-        <a href="GetCustomer" >Get Customer info</a>
+        <a href="ProcessCustomer" >Get Customer info</a>
     </body>
 </html>

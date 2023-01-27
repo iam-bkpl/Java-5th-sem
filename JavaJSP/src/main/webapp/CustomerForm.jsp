@@ -14,7 +14,7 @@
     </head>
     <body>
         <h1>Customer Form</h1>
-        <form class="container" action="FetchCustomer.jsp" method="POST"> 
+        <form class="container" action="FetchCustomerForm.jsp" method="POST"> 
             <label>Name</label> 
             <input type="text" class="form-control" name="name"/>
             <label>Address</label> 
