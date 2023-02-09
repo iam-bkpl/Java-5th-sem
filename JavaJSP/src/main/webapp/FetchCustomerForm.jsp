@@ -22,7 +22,7 @@
         <jsp:setProperty name="customer" property="email" value="<%= request.getParameter("address") %>"  />
         
         
-        <h1>Collected data</h1>
-        <a href="ProcessCustomer" >Get Customer info</a>
+        <h1>JSP setter method</h1>
+        <a href="GetCustomerProcess.jsp" >Get Customer info</a>
     </body>
 </html>

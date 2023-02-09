@@ -13,6 +13,7 @@
     </head>
     <body>   
         <%@ page isErrorPage="true" %>
-        <h1> You got error bro jenush</h1>
+        <h1> Example of Include Directive
+        </h1>
     </body>
 </html>

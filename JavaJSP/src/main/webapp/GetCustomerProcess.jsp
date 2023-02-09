@@ -12,13 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Get</h1>
+        <h1>GetProperty</h1>
         <jsp:useBean id="customer" class="Bean.Customer" scope="session" />
         
         <jsp:getProperty name="customer" property="name"/>
          <jsp:getProperty name="customer" property="address"/>
           <jsp:getProperty name="customer" property="contact"/>
            <jsp:getProperty name="customer" property="email"/>
-         
+           
+          <a href="ProcessCustomer" >Get Customer info</a>
     </body>
 </html>

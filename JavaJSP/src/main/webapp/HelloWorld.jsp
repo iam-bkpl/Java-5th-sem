@@ -14,6 +14,6 @@
     <body>
         
         <h1>My First JSP Program</h1>
-        <% out.println("Hello Jenish"); %>
+        <% out.println("My First JSP Program"); %>
     </body>
 </html>
