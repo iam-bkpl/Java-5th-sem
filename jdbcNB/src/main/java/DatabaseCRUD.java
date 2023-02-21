@@ -6,7 +6,7 @@ public class DatabaseCRUD {
     Statement stmt;
     ResultSet rs;
     
-     public DatabaseCRUD(){
+     public DatabaseCRUD(){ 
          try {
             String sql="CREATE DATABASE db_test";
 //            Class.forName("com.mysql.jdbc.Driver");
